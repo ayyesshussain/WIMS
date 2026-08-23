@@ -15,7 +15,7 @@ from app.api.routes.inventory import router as inventory_router
 from app.api.routes.stock_movements import router as stock_movements_router
 from app.api.routes.inventory_operations import router as inventory_operations_router
 from app.api.routes.suppliers import router as suppliers_router
-
+from app.core.config import settings
 from app.api.routes import purchases
 from app.api.routes import sales
 from app.api.routes import reports
